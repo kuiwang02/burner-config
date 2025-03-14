@@ -64,7 +64,7 @@ logger = logging.getLogger(__name__)
 @click.option(
     "--anomalies_threshold",
     type=int,
-    default=3,
+    default=2,
     required=False,
     help="the anomalies threshold to determine if the checking fails or not"
 )
